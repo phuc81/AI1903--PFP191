@@ -1,0 +1,6 @@
+str1 = "/* John is @developer & musician"
+
+# Removing special symbols
+str1 = ''.join(e for e in str1 if e.isalnum() or e.isspace())
+
+print(str1)

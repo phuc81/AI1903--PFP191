@@ -1,0 +1,5 @@
+import re
+
+str1 = 'I am 25 years and 10 months old'
+result = re.sub(r'\D', '', str1)
+print(result)
