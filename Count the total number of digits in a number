@@ -1,0 +1,4 @@
+number = 1234567
+total_digits = len(str(number))
+print("Total digits are", total_digits)
+

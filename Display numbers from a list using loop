@@ -1,0 +1,10 @@
+numbers = [75, 150, 145, 200, 250, 300, 350, 400, 450, 500, 550]
+
+for num in numbers:
+    if num % 5 == 0:
+        if num > 150:
+            continue
+        elif num > 500:
+            break
+        else:
+            print(num)
